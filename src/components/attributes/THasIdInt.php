@@ -10,6 +10,6 @@ trait THasIdInt
 
     public function getId(int $default = 0): int
     {
-        return $this->getAttribute(IHaveIdInt::FIELD__ID, $default);
+        return $this->getAttributeInt(IHaveIdInt::FIELD__ID, $default);
     }
 }
