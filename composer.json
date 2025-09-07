@@ -14,7 +14,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit --testdox --coverage-clover=coverage.xml --filter test tests",
+        "test": "vendor/bin/phpunit --testdox --coverage-clover=coverage.xml --filter=test tests",
         "stan": "vendor/bin/phpstan analyse -l 5 src"
     }
 }
